@@ -1,0 +1,171 @@
+@font-face {
+    font-family: 'Acme Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Acme Regular'), url('Acme-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Museo Sans Cyrl 100 Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Museo Sans Cyrl 100 Italic'), url('museosanscyrl_100_italic.woff') format('woff');
+}
+   
+@font-face {
+    font-family: 'Open Sans Light Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Open Sans Light Italic'), url('OpenSans-LightItalic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Playfair Display Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Playfair Display Regular'), url('PlayfairDisplay-Regular.woff') format('woff');
+}
+
+@keyframes popinanim {
+    0% {
+        opacity: 0;
+        transform: scale(0.75);
+    }
+    93% {
+        opacity: 0;
+        transform: scale(0.75);
+    }
+    98% {
+        opacity: 1;
+        transform: scale(1.2);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+        
+.card {
+    animation-name: popinanim;
+    animation-timing-function: ease;
+    animation-duration: 1.2s;
+    margin: 10px auto;
+    min-width: 325px;
+    width: 40%;
+    padding: 10px;
+    background-color: rgba(10, 178, 255, 0.233);   
+    box-shadow: 5px 5px 5px rgba(10, 177, 255, 0.4);
+}
+
+.card:hover {
+    transform: scale(1.1);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.content{
+    justify-content: left;
+}
+
+.partsOfSpeechAdj {
+    margin: auto;
+    margin-left: 0;
+    margin-right: 0;
+    width: 2em;
+    background-color: orange;
+}
+
+.partsOfSpeechNoun {
+    margin: auto;
+    margin-left: 0;
+    margin-right: 0;
+    width: 3em;
+    background-color: greenyellow;
+}
+
+.partsOfSpeechVerb {
+    margin: auto;
+    margin-left: 0;
+    margin-right: 0;
+    width: 3em;
+    background-color: lightcoral;
+}
+
+.defBox {
+    display: flex;
+    justify-content: left;
+}
+
+.definition {
+    margin: auto;
+    margin-top: 8px;
+    margin-bottom: 5px;
+    padding-bottom: 7px;
+    font-family: 'Museo Sans Cyrl 100 Italic';
+    font-size: 105%;
+    font-weight: 500;
+}
+
+.synonymCover {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgba(65, 69, 71, 0.233);
+}
+
+.synonymHead {
+    margin: auto;
+    margin-left: 0;
+    font-family: 'Arial';
+    font-size: 95%;
+}
+
+.synonyms {
+    margin: 4px 5px 5px 5px;
+    font-family: 'Acme Regular';
+}
+
+.image {
+    width: 60%;
+    max-height: 300px;
+    margin-top: 20px;;
+}
+
+.word{
+    font-size: 2rem;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgba(65, 69, 71, 0.233);
+}
+
+.explanation{
+    margin-top: 8px;
+}
+
+.exampleHead{
+    margin-top: 8px;
+    border-top: 1px solid rgba(65, 69, 71, 0.233);
+    padding-top: 10px;
+    font-family: 'Trebuchet MS';
+    font-size: 95%;
+    font-weight: 600;
+}
+
+.examples{
+    text-align: left;
+}
+
+.example{
+    margin-top: 15px;
+    margin-left: 0.5rem;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(65, 69, 71, 0.233);
+    font-family: 'Open Sans Light Italic';
+    font-weight: 590;
+}
+
+.comments{
+    text-align: left;
+    margin-left: 0.5rem;
+    margin-top: 15px;
+    font-size: 115%;
+    font-family: 'Playfair Display Regular';
+}

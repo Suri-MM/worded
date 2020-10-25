@@ -1,0 +1,156 @@
+@keyframes homeAEnter {
+    from { margin-left: 46%; }
+    to { margin-left: 90%; }
+}
+
+@keyframes aboutAEnter {
+    from { margin-right: 48%; }
+    to { margin-right: 90%; } 
+}
+
+@keyframes homeEnter {
+    from { margin-left: 90%; }
+    to { margin-left: 0%; }
+}
+
+@keyframes aboutEnter {
+    from { padding-right: 85%; }
+    to { padding-right: 0%; } 
+}
+
+@keyframes popinanim {
+    0% {
+        opacity: 0;
+        transform: scale(0.75);
+    }
+    53% {
+        opacity: 0;
+        transform: scale(0.75);
+    }
+    90% {
+        opacity: 1;
+        transform: scale(1.2);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@font-face {
+    font-family: 'Josefin Sans Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Josefin Sans Regular'), url('JosefinSans-Regular.woff') format('woff');
+}
+
+.sBox {
+    background-color: rgba(4, 142, 255, 0.103);
+    padding-top: 2px;
+    padding-bottom: 4px;
+    width: 100%;
+    display: inline-grid;
+    grid-template-columns: 35% 30% 35%;
+}
+
+.sBoxA {
+    background-color: rgba(4, 142, 255, 0.103);;
+    padding-top: 2px;
+    padding-bottom: 4px;
+    width: 100%;
+    display: inline-grid;
+    grid-template-columns: 35% 30% 35%;
+}
+
+.box {
+    animation-name: popinanim;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    text-align: center;
+    justify-self: center;
+    width: 30%;
+    height: 30px;
+    -webkit-transition: width 0.3s ease-in-out;
+    transition: width 0.3s ease-in-out;
+    border: 1px solid rgba(4, 142, 255, 0.281);
+    border-radius: 30px;
+    box-shadow: 0px 4px rgba(87, 202, 255, 0.363);
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.boxA {
+    width: 30%;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    visibility: hidden;
+}
+
+.box:focus {
+    width: 80%;
+    height: 30px;
+    outline: none;
+    border-radius: 30px;
+}
+
+.about {
+    animation-name: aboutEnter;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    margin-top: 12px;
+    font-size: 20px;
+    font-family: 'Josefin Sans Regular';
+}
+
+.home {
+    animation-name: homeEnter;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    margin-top: 12px;
+    font-size: 20px;
+    font-family: 'Josefin Sans Regular';
+}
+
+.home:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.about:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.homeA {
+    animation-name: homeAEnter;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    margin-left: 90%;
+    justify-self: left;
+    margin-top: 12px;
+    font-size: 20px;
+    font-family: 'Josefin Sans Regular';
+}
+
+.homeA:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.aboutA { 
+    animation-name: aboutAEnter;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    justify-self: right;
+    margin-right: 90%;
+    margin-top: 12px;
+    font-size: 20px;
+    font-family: 'Josefin Sans Regular';
+}
+
+.aboutA:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}

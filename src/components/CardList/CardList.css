@@ -1,0 +1,9 @@
+.cardlist {
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.card {
+    left: 50%;
+    justify-content: center;
+}

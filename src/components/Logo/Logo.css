@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Dreamscape';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Dreamscape'), url('Dreamscape.woff') format('woff');
+}
+
+.head {
+    background: radial-gradient(circle, rgb(255, 122, 122) 0%, rgb(253, 202, 91) 100%); ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Dreamscape';
+    display: inline-flex;
+    font-size: 3.68rem;
+    color:rgba(0, 0, 0, 0.747);
+}
+
+.we {
+    font-size: 4rem;
+}
+
+.headBox {
+    border: 5px solid rgba(0, 0, 0, 0.562);
+    width: 20%;
+    min-width: 350px;
+    box-shadow: 3px 7px 4px rgba(0, 0, 0, 0.356);
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+
+.headBox:hover {
+    transform: perspective(1000px) rotateX(23deg);
+    box-shadow: 4px 10px 4px rgba(0, 0, 0, 0.397);
+}
