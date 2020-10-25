@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
-import Logo from './components/Logo/Logo';
-import CardList from './components/CardList/CardList';
-import SearchBox from './components/SearchBox/SearchBox';
-import About from './components/About/About';
+import Logo from './components/Logo/Logo.js';
+import CardList from './components/CardList/CardList.js';
+import SearchBox from './components/SearchBox/SearchBox.js';
+import About from './components/About/About.js';
 import { setSearchField } from './actions';
 import { connect } from 'react-redux';
 
