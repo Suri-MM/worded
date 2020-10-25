@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/worded/static/css/main.8c60b743.chunk.css",
+    "main.js": "/worded/static/js/main.c99f4317.chunk.js",
+    "main.js.map": "/worded/static/js/main.c99f4317.chunk.js.map",
+    "runtime-main.js": "/worded/static/js/runtime-main.f1f1ad8a.js",
+    "runtime-main.js.map": "/worded/static/js/runtime-main.f1f1ad8a.js.map",
+    "static/js/2.b0382c0c.chunk.js": "/worded/static/js/2.b0382c0c.chunk.js",
+    "static/js/2.b0382c0c.chunk.js.map": "/worded/static/js/2.b0382c0c.chunk.js.map",
+    "index.html": "/worded/index.html",
+    "precache-manifest.aba8dd3fb9e1565392e5ee587715044a.js": "/worded/precache-manifest.aba8dd3fb9e1565392e5ee587715044a.js",
+    "service-worker.js": "/worded/service-worker.js",
+    "static/css/main.8c60b743.chunk.css.map": "/worded/static/css/main.8c60b743.chunk.css.map",
+    "static/js/2.b0382c0c.chunk.js.LICENSE.txt": "/worded/static/js/2.b0382c0c.chunk.js.LICENSE.txt",
+    "static/media/Card.css": "/worded/static/media/museosanscyrl_100_italic.5789aa34.woff",
+    "static/media/About.css": "/worded/static/media/wordshavepower.0c261511.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f1f1ad8a.js",
+    "static/js/2.b0382c0c.chunk.js",
+    "static/css/main.8c60b743.chunk.css",
+    "static/js/main.c99f4317.chunk.js"
+  ]
+}
