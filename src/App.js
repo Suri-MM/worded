@@ -30,7 +30,7 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-    fetch('http://localhost:3000/')
+    fetch('https://fathomless-eyrie-79486.herokuapp.com/')
     .then(response => response.json())
     .then(data => {
       this.setState({ data });
