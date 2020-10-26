@@ -202,7 +202,7 @@ button:active {
 .titleW {
     margin-bottom: 8px;
     color: white;
-    font-size: 1em;
+    font-size: 200%;
     font-family: 'Dreamscape';
 }
 
@@ -211,5 +211,5 @@ h2 {
 }
 
 .we1 {
-    font-size: 1.1em;
+    font-size: 102%;
 }
