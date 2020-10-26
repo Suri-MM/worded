@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/worded/static/css/main.84ca6a4c.chunk.css",
+    "main.css": "/worded/static/css/main.a9abe519.chunk.css",
     "main.js": "/worded/static/js/main.fb88240d.chunk.js",
     "main.js.map": "/worded/static/js/main.fb88240d.chunk.js.map",
     "runtime-main.js": "/worded/static/js/runtime-main.f1f1ad8a.js",
@@ -8,9 +8,9 @@
     "static/js/2.b0382c0c.chunk.js": "/worded/static/js/2.b0382c0c.chunk.js",
     "static/js/2.b0382c0c.chunk.js.map": "/worded/static/js/2.b0382c0c.chunk.js.map",
     "index.html": "/worded/index.html",
-    "precache-manifest.af87e819ac67ad94a7aaa71091386067.js": "/worded/precache-manifest.af87e819ac67ad94a7aaa71091386067.js",
+    "precache-manifest.242db7273b3b904115b8c2c4fff7d61a.js": "/worded/precache-manifest.242db7273b3b904115b8c2c4fff7d61a.js",
     "service-worker.js": "/worded/service-worker.js",
-    "static/css/main.84ca6a4c.chunk.css.map": "/worded/static/css/main.84ca6a4c.chunk.css.map",
+    "static/css/main.a9abe519.chunk.css.map": "/worded/static/css/main.a9abe519.chunk.css.map",
     "static/js/2.b0382c0c.chunk.js.LICENSE.txt": "/worded/static/js/2.b0382c0c.chunk.js.LICENSE.txt",
     "static/media/Card.css": "/worded/static/media/museosanscyrl_100_italic.5789aa34.woff",
     "static/media/About.css": "/worded/static/media/wordshavepower.0c261511.gif"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.f1f1ad8a.js",
     "static/js/2.b0382c0c.chunk.js",
-    "static/css/main.84ca6a4c.chunk.css",
+    "static/css/main.a9abe519.chunk.css",
     "static/js/main.fb88240d.chunk.js"
   ]
 }

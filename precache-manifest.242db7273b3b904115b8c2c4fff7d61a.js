@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "306c5ac76e2d66d7ca0a8252ee8fb4cd",
+    "revision": "100eb4f38a5debdbb82eb50236c999c8",
     "url": "/worded/index.html"
   },
   {
-    "revision": "6a06e4ba9925d60bdabb",
-    "url": "/worded/static/css/main.84ca6a4c.chunk.css"
+    "revision": "a3dc12baeab96fef3026",
+    "url": "/worded/static/css/main.a9abe519.chunk.css"
   },
   {
     "revision": "e8afb4cae65399810cea",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/worded/static/js/2.b0382c0c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6a06e4ba9925d60bdabb",
+    "revision": "a3dc12baeab96fef3026",
     "url": "/worded/static/js/main.fb88240d.chunk.js"
   },
   {
