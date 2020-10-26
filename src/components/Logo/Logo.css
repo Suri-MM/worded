@@ -14,13 +14,16 @@
 }
 
 h1 {
+    margin-top: 6px;
     font-family: 'Dreamscape';
     display: inline-flex;
     font-size: 3.68rem;
     color:rgba(0, 0, 0, 0.747);
+    margin-bottom: 3px;
 }
 
 .we {
+    margin-top: 0px;
     font-size: 4rem;
 }
 
