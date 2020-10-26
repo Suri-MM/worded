@@ -10,6 +10,7 @@ const About = ({ onSiteChange }) => {
                 </p>
                 <p></p>
                 <button onClick = { () => onSiteChange('home')} >Learn Words</button>
+                <p></p>
             </div>
             <div className = "aboutEnd">
                 <div className = "rowEnd">

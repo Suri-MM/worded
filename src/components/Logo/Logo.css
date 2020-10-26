@@ -27,7 +27,7 @@ h1 {
 .headBox {
     border: 5px solid rgba(0, 0, 0, 0.562);
     width: 20%;
-    min-width: 350px;
+    min-width: 300px;
     box-shadow: 3px 7px 4px rgba(0, 0, 0, 0.356);
     margin-top: 5px;
     margin-bottom: 8px;
